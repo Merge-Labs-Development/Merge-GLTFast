@@ -1,0 +1,37 @@
+{
+  "name": "com.unity.cloud.gltfast",
+  "version": "5.2.0",
+  "displayName": "Unity glTFast",
+  "description": "Use glTFast to import and export glTF 3D files efficiently at runtime or in the Editor",
+  "unity": "2019.4",
+  "keywords": [
+    "mesh",
+    "gltf",
+    "asset",
+    "format",
+    "draco",
+    "ktx",
+    "basis",
+    "universal",
+    "basisu"
+  ],
+  "dependencies": {
+    "com.unity.modules.jsonserialize": "1.0.0",
+    "com.unity.modules.unitywebrequest": "1.0.0",
+    "com.unity.mathematics": "1.2.6",
+    "com.unity.burst": "1.6.6"
+  },
+  "type": "library",
+  "unityRelease": "40f1",
+  "_upm": {
+    "changelog": "### Added\n- Runtime tests\n- (Export) Setting for deterministic export (limits concurrency to ensure consistent output)\n- (DOTS) Support for [Entities 1.0][Entities1.0]\n\n### Changed\n- Optimized `Accessor.GetAccessorAttributeType`\n- Optimized `GltfEntityAsset.ClearScenes` via Burst\n- Bump minimum unity version from 2019.4.7f1 to 2019.4.40f1\n\n### Fixed\n- Compiler errors and warnings on Unity 2023.2 (and newer) due to using obsolete types."
+  },
+  "upmCi": {
+    "footprint": "5d84a0e0d1503a135ee6ee4dd83400f651031b54"
+  },
+  "repository": {
+    "url": "https://github.cds.internal.unity3d.com/unity/com.unity.cloud.gltfast.git",
+    "type": "git",
+    "revision": "dec349748003a763820ed1bb3a81b93936c59bb3"
+  }
+}
